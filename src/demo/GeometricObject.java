@@ -13,12 +13,12 @@ public abstract class GeometricObject {
     private java.util.Date dateCreated;
 
     //无参构造器
-    public GeometricObject(){
+    protected GeometricObject(){
         dateCreated = new java.util.Date();
     }
 
     //含参构造器
-    public GeometricObject(String name, String color, boolean filled){
+    protected GeometricObject(String name, String color, boolean filled){
         this.name = name;
         this.color = color;
         this.filled = filled;
