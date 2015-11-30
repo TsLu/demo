@@ -44,6 +44,6 @@ class OKListenerClass implements ActionListener{
 
 class CancelListenrClass implements ActionListener{
     public void actionPerformed(ActionEvent e){
-        System.out.println("OK button clicked");
+        System.out.println("Cancel button clicked");
     }
 }
